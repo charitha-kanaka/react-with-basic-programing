@@ -2,13 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import HomePage from './pages/HomePage/HomePage';
 function App() {
   return (
     <div>
       <Header></Header>
 
-      <main>
-      <h2>Success</h2>
+      <main className="container mt-5 pt-2">
+     <HomePage />
       </main>
 
 <Footer></Footer>
