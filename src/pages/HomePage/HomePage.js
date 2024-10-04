@@ -3,12 +3,14 @@
 //rafce
 
 import LatestVideo from "./LatestVideo/LatestVideo";
+import RecommendedVideoList from "./RecommendedVideoList/RecomendedVideoList";
+import TrendingVideoList from "./TrendingVideoList/TrendingVideoList";
 
 const HomePage = () => {
     return (
         <div>
             <h1>Welcome to homepage</h1>
-            <div className="row">
+            <div className="row mb-3">
                 <h2>Latest video | props demo</h2>
                 <div className="col-md-4">
                     <LatestVideo title='Arg vs Fra FIFA 2022 Final'
@@ -48,6 +50,22 @@ const HomePage = () => {
                 </div>
                 
             </div>
+            <div className="row mb-3">
+                <h2>
+                  Trending Videos| Class Component, States and Events Demo
+                </h2>
+            <TrendingVideoList />
+
+            </div>
+
+            <div className="mb-3">
+                <h2>
+                  Recommended Videos| Class Component, States and Events List & keys and Conditionals Demo
+                </h2>
+            <RecommendedVideoList />
+
+            </div>
+            
         </div>
     );
 }
