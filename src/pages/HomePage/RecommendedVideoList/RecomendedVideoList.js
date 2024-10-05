@@ -41,8 +41,7 @@ class RecommendedVideoList extends Component {
     console.log(index);
     // duplicating videos array from state
     // Working with State Immutably
-    //we can't change the state directly so took duplicateVideos array modify that 
-    //and by using setstate we are passing the array
+    //we can't change the state directly so took duplicateVideos array modify that and by using setstate we are passing the array
     const duplicateVideos = [...this.state.videos];
     duplicateVideos[index].isInWatchlist = !duplicateVideos[index].isInWatchlist;
 
@@ -68,7 +67,7 @@ class RecommendedVideoList extends Component {
     videoList = this.state.videos.map((video, index) => {
       // console.log(video);
       return (
-        <div className="col-md-3" key={video.id}>
+        <div className="col-md-4" key={video.id}>
           <div className="card" >
             <img
               src={video.thumbnailUrl}

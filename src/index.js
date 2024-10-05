@@ -1,8 +1,13 @@
-import React from 'react';
+//importing from node_modules
+
+import React from 'react'; //importing react core library
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+//custom imports
+
+import './index.css';  // project wide styles
+import App from './App';  //importing app component
+import reportWebVitals from './reportWebVitals'; //analytics related
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

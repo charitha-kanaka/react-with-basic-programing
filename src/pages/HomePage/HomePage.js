@@ -3,7 +3,9 @@
 //rafce
 
 import LatestVideo from "./LatestVideo/LatestVideo";
+import Myprofile from "./Myprofile/Myprofile";
 import RecommendedVideoList from "./RecommendedVideoList/RecomendedVideoList";
+import Subscription from "./Subscription/Subscription";
 import TrendingVideoList from "./TrendingVideoList/TrendingVideoList";
 
 const HomePage = () => {
@@ -62,9 +64,26 @@ const HomePage = () => {
                 <h2>
                   Recommended Videos| Class Component, States and Events List & keys and Conditionals Demo
                 </h2>
-            <RecommendedVideoList />
+                <RecommendedVideoList />
 
             </div>
+
+            <div className="mb-3">
+                <h2>
+                  Subscription | styling in react
+                </h2>
+                <Subscription />
+
+            </div>
+
+            <div className="mb-3">
+                <h2>
+                  Myprofile two way binding react demo
+                </h2>
+                <Myprofile />
+
+            </div>
+
             
         </div>
     );
