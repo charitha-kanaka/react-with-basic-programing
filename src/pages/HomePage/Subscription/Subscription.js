@@ -35,11 +35,11 @@ const Subscription = () => {
 
 {/* Inline CSS*/}
         <p style={{
-color:'red',
-backgroundColor:'yellow',
-border:'1px solid',
-padding:'20px',
-borderRadius:'6px'
+                color:'red',
+                backgroundColor:'yellow',
+                border:'1px solid',
+                padding:'20px',
+                borderRadius:'6px'
 
         }}>Renew now</p>
 

@@ -3,6 +3,7 @@
 //rafce
 
 import LatestVideo from "./LatestVideo/LatestVideo";
+import LifeCycleDemo from "./LifeCycleDemo/LifeCycleDemo";
 import Myprofile from "./Myprofile/Myprofile";
 import RecommendedVideoList from "./RecommendedVideoList/RecomendedVideoList";
 import Subscription from "./Subscription/Subscription";
@@ -84,6 +85,14 @@ const HomePage = () => {
 
             </div>
 
+
+            <div className="mb-3">
+                <h2>
+                  Life cycle hooks | demo 
+                </h2>
+                <LifeCycleDemo/>
+
+            </div>
             
         </div>
     );
